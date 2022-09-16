@@ -9,6 +9,8 @@
     <ItemGroup>
       <PackageReference Include="Microsoft.Azure.Management.Media" Version="6.0.0" />
       <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.23.1" />
+      <PackageReference Include="Microsoft.Identity.Client" Version="4.46.2" />
     </ItemGroup>
+    
 
 </Project>
