@@ -9,7 +9,7 @@ using Microsoft.Identity.Client;
 using Microsoft.Rest;
 using Xunit;
 
-namespace MediaServicesPocTests;
+namespace MediaServicesPoc.Tests;
 
 public class MediaApiTests
 {

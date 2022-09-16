@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaServicesPoc", "MediaServicesPoc\MediaServicesPoc.csproj", "{F4943ED8-E439-4F7B-8E04-2AFDDA76E81A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaServicesPoc.Tests", "MediaServicesPoc.Tests\MediaServicesPoc.Tests.csproj", "{9E27AF1F-06FE-4DD9-A21B-5B5486C4FE60}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaServicesPocTests", "MediaServicesPocTests\MediaServicesPocTests.csproj", "{9E27AF1F-06FE-4DD9-A21B-5B5486C4FE60}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaServicesPoc", "MediaServicePoc\MediaServicesPoc.csproj", "{A48C7E48-742D-4399-AA6F-C58E5C91CBE7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -10,13 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{F4943ED8-E439-4F7B-8E04-2AFDDA76E81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F4943ED8-E439-4F7B-8E04-2AFDDA76E81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F4943ED8-E439-4F7B-8E04-2AFDDA76E81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F4943ED8-E439-4F7B-8E04-2AFDDA76E81A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9E27AF1F-06FE-4DD9-A21B-5B5486C4FE60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9E27AF1F-06FE-4DD9-A21B-5B5486C4FE60}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E27AF1F-06FE-4DD9-A21B-5B5486C4FE60}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E27AF1F-06FE-4DD9-A21B-5B5486C4FE60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A48C7E48-742D-4399-AA6F-C58E5C91CBE7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A48C7E48-742D-4399-AA6F-C58E5C91CBE7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A48C7E48-742D-4399-AA6F-C58E5C91CBE7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A48C7E48-742D-4399-AA6F-C58E5C91CBE7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

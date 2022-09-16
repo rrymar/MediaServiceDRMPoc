@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.Extensions.Configuration;
 
-namespace MediaServicesPocTests;
+namespace MediaServicesPoc.Tests;
 
 public class ConfigWrapper
 {
