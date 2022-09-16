@@ -1,4 +1,4 @@
-# MediaServiceDRMPoc
+# MediaServicePoc
 
 See https://ampdemo.azureedge.net/ 
 
