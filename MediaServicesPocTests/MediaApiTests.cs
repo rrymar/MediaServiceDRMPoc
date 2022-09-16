@@ -14,17 +14,19 @@ namespace MediaServicesPocTests;
 public class MediaApiTests
 {
     private readonly ConfigWrapper config;
+
     public MediaApiTests()
     {
         var builder = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
-            .AddJsonFile("appsettings.json");
+            .AddJsonFile("appsettings.json")
+            .AddJsonFile("appsettings.local.json", true);
 
         config = new ConfigWrapper(builder.Build());
     }
-    
+
     public const string TokenType = "Bearer";
-    
+
     public static async Task<IAzureMediaServicesClient> CreateMediaServicesClientAsync(ConfigWrapper config)
     {
         var scopes = new[] { config.ArmAadAudience + "/.default" };
@@ -53,7 +55,5 @@ public class MediaApiTests
         var assets = await client.Assets.ListAsync(config.ResourceGroup, config.AccountName);
 
         assets.Count().Should().NotBe(0);
-
     }
-    
 }
