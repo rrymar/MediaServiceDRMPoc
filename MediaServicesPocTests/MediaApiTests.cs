@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using FluentAssertions;
@@ -16,6 +17,7 @@ public class MediaApiTests
     public MediaApiTests()
     {
         var builder = new ConfigurationBuilder()
+            .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json");
 
         config = new ConfigWrapper(builder.Build());
